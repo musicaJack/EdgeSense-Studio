@@ -1,29 +1,51 @@
-#EdgeSense Studio
-Modular Embedded Platform for Intelligent Edge Computing
+# EdgeSense Studio  
 
-🚀 Key Features
-🌐 Multi-Sensor Fusion
-​Environmental Sensing: Supports plug-and-play integration of temperature, humidity, air pressure, and ambient light sensors
-​Motion Detection: Built-in 9-axis IMU (accelerometer/gyroscope/magnetometer) with configurable thresholds
-​Geospatial Capture: GNSS module with multi-constellation support (GPS/GLONASS/BeiDou) achieving sub-meter accuracy
-⚡ Real-Time Data Pipeline
-​Synchronized Sampling: 100Hz sensor data acquisition with timestamp alignment
-​Low-Latency Processing: On-device data filtering and anomaly detection algorithms
-​Geo-Tagging: Automatic spatial-temporal correlation of sensor readings
-📡 Smart Connectivity Suite
-​Protocol Flexibility: Concurrent MQTT/CoAP/LoRaWAN/Bluetooth 5.2 connectivity
-​Cloud Ready: Pre-built connectors for AWS IoT Core, Azure IoT Hub, and private MQTT brokers
-​Edge-Cloud Sync: Adaptive data buffering with automatic retransmission during network outages
-🛠️ Developer-Centric Design
-​Python Ecosystem: Full MicroPython API for hardware control and protocol customization
-​Config-Driven Workflows: JSON-based profile system for runtime parameter adjustments
-​Embedded Scripting: Syntax-highlighting editor with code snippet library and cron-like job scheduler
-🧩 Extensible Architecture
-​Hardware Modularity: Standardized GPIO/I2C/SPI interfaces for expansion boards
-​ML at Edge: TensorFlow Lite Micro integration for predictive maintenance models
-​Container Ready: Lightweight runtime supporting Dockerized edge applications
-🏭 Target Applications
-Industrial condition monitoring (vibration + thermal analysis)
-Precision agriculture with microclimate tracking
-Logistics asset tracking (GPS + shock detection)
-Smart city air quality mesh networks
+**Modular Embedded Platform for Intelligent Edge Computing**  
+
+---
+
+## 🚀 Key Features  
+
+### 🌐 Multi-Sensor Fusion  
+- ​**Environmental Sensing**: Plug-and-play integration for temperature/humidity/pressure/light sensors  
+- ​**Motion Detection**: 9-axis IMU (accelerometer/gyroscope/magnetometer) with adaptive thresholds  
+- ​**Geospatial Precision**: Multi-constellation GNSS (GPS/GLONASS/BeiDou) with <1m accuracy  
+
+### ⚡ Real-Time Data Engine  
+- ​**100Hz Sampling**: Synchronized sensor data acquisition  
+- ​**On-Device Processing**: Real-time filtering & anomaly detection  
+- ​**Smart Tagging**: Auto spatiotemporal correlation of measurements  
+
+### 📡 Intelligent Connectivity  
+- ​**Protocol Suite**: MQTT 5.0/CoAP/LoRaWAN/Bluetooth 5.2 support  
+- ​**Cloud Integration**: AWS/Azure/Private MQTT pre-configured  
+- ​**Edge Sync**: Adaptive buffering with 72h offline cache  
+
+### 🛠️ Developer Tools  
+- ​**Python API**: Full hardware control via MicroPython  
+- ​**JSON Configuration**: Runtime parameter tuning without recompiling  
+- ​**Embedded IDE**: Syntax-highlighting editor + task scheduler  
+
+### 🧩 Extensible Architecture  
+- ​**Hardware Expansion**: GPIO/I2C/SPI/UART interfaces  
+- ​**ML Ready**: TensorFlow Lite Micro runtime  
+- ​**Container Support**: Dockerized app deployment  
+
+---
+
+## 🏭 Target Applications  
+- 🏭 Industrial predictive maintenance  
+- 🌾 Precision agriculture automation  
+- 📦 Logistics asset tracking  
+- 🌆 Smart city environmental monitoring  
+
+---
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+[![Documentation](https://img.shields.io/badge/Docs-Read%20the%20Docs-blue)](https://edgesense.studio)  
+
+> ​**Project Ecosystem**  
+> - Hardware Schematics: `open-hardware/`  
+> - Firmware Core: `edge-core/`  
+> - Python SDK: `sdk-python/`  
+> - Example Projects: `demos/`  
