@@ -7,24 +7,21 @@
 ## 🚀 Key Features  
 
 ### 🌐 Multi-Sensor Fusion  
-- ​**Environmental Sensing**: Plug-and-play integration for temperature/humidity/pressure/light sensors  
-- ​**Motion Detection**: 9-axis IMU (accelerometer/gyroscope/magnetometer) with adaptive thresholds  
-- ​**Geospatial Precision**: Multi-constellation GNSS (GPS/GLONASS/BeiDou) with <1m accuracy  
+- ​**Environmental Sensing**: Plug-and-play integration for temperature/humidity/pressure/light sensors
+- ​**Geospatial Precision**: Multi-constellation GNSS (GPS/GLONASS/BeiDou) with high accuracy
 
 ### ⚡ Real-Time Data Engine  
 - ​**100Hz Sampling**: Synchronized sensor data acquisition  
-- ​**On-Device Processing**: Real-time filtering & anomaly detection  
-- ​**Smart Tagging**: Auto spatiotemporal correlation of measurements  
+- ​**Device Processing**: Real-time filtering & anomaly detection  
 
 ### 📡 Intelligent Connectivity  
-- ​**Protocol Suite**: MQTT 5.0/CoAP/LoRaWAN/Bluetooth 5.2 support  
-- ​**Cloud Integration**: AWS/Azure/Private MQTT pre-configured  
-- ​**Edge Sync**: Adaptive buffering with 72h offline cache  
+- ​**Protocol Suite**: MQTT/LoRaWAN/Bluetooth support  
+- ​**Cloud Integration**: Private MQTT pre-configured  
+- ​**Edge Sync**: Adaptive buffering with offline cache  
 
 ### 🛠️ Developer Tools  
 - ​**Python API**: Full hardware control via MicroPython  
 - ​**JSON Configuration**: Runtime parameter tuning without recompiling  
-- ​**Embedded IDE**: Syntax-highlighting editor + task scheduler  
 
 ### 🧩 Extensible Architecture  
 - ​**Hardware Expansion**: GPIO/I2C/SPI/UART interfaces  
@@ -34,14 +31,15 @@
 ---
 
 ## 🏭 Target Applications  
-- 🏭 Industrial predictive maintenance  
-- 🌾 Precision agriculture automation  
-- 📦 Logistics asset tracking  
-- 🌆 Smart city environmental monitoring  
+- 🎓 ​**DIY & Prototyping**: Perfect for IoT beginners to advanced users, with comprehensive tutorials and modular components  
+- 🏭 Industrial Predictive Maintenance: Real-time vibration and temperature monitoring for machinery  
+- 🌾 Precision Agriculture Automation: Microclimate tracking and smart irrigation control  
+- 📦 Logistics Asset Tracking: GPS positioning with shock detection for shipment monitoring  
+- 🌆 Smart City Environmental Monitoring: Air quality and noise level measurement for urban planning
 
 ---
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://img.shields.io/badge/Docs-Read%20the%20Docs-blue)](https://edgesense.studio)  
 
 > ​**Project Ecosystem**  
